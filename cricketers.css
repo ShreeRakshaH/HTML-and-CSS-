@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 680px;
+    width: 100%;
+}
+#container1{
+   height: 230px;
+   width: 100%;
+   display: flex;
+}
+.c1{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+.c2{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 50px; 
+}
+.c3{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+.c4{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+.container2{
+    height: 230px;
+    width: 100%;
+    display: flex;
+}
+.c5{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top:10px;
+    left: 40px;
+}
+.c6{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 50px; 
+}
+.c7{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+.c8{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+
+ .container3{
+    height:220px;
+    width: 100%;
+    display: flex;
+}
+.c9{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+.c10{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 50px; 
+}
+.c11{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+.c12{
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}

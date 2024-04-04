@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 680px;
+    width: 100%;
+    background-image: linear-gradient(orange 0%,red 30%,white 30% ,white 70%,rgb(14, 35, 14) 70%,green 30%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

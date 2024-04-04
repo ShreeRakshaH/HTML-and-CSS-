@@ -1,0 +1,97 @@
+.conatiner{
+    height: 1325px;
+    width: 100%;
+    background-color: red;
+}
+.nav{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.n1,.n2,.n3,.n4{
+    height: 50px;
+    width: 10%;
+}
+.body{
+    height: 800px;
+    width: 100%;
+    background-color: brown;
+    background-image: url(https://images4.alphacoders.com/107/thumb-1920-1074058.jpg);background-repeat: no-repeat;background-size: 100% 800px;
+    
+}
+.text{
+    height: 140px;
+    width: 70%;
+    font-size: 30px;
+    display: inline-table;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+   
+   
+}
+.search{
+    height: 80px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+}
+.b2,.b3,.b4{
+    height: 60px;
+    width: 70%;
+  
+    
+}
+.signin{
+    height: 30px;
+    width: 20%;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.s1{
+    height: 30px;
+    width: 40%;
+   
+}
+.pictures{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.p1,.p2,.p3{
+    height: 300px;
+    width: 30%;
+    background-color: currentColor;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+
+}
+.c1,.c2{
+    height: 60px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}

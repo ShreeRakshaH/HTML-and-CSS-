@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+      height: 700px;
+      width: 100%;
+      background-color: black;
+      background-image: url(https://cdn.sevenstyles.com/media/2022/04/17161747/CoverImage-copy-30.jpg);background-repeat: no-repeat;background-size: 100% 700px;
+   }
+   .header{
+       height: 50px;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+   }
+   .body{
+    height: 600px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .b1{
+    font-size: 170px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(221, 141, 66, 0.366);
+   }
+   #h2>select{
+        color: black;
+        background-color: rgba(255, 255, 255, 0);
+        border: 0px;
+   }
+   #a1>select{
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+}
+.footer{
+    height: 80px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    
+}
+ul li{
+    justify-content: space-around;
+    padding: 20px;
+    color: rgb(0,0,0,.15);
+}

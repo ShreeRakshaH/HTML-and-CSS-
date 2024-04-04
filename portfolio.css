@@ -1,0 +1,198 @@
+.container{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    height: 75px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.n9::first-letter{
+color: rgba(178, 5, 11, 0.879);
+font-family: cursive;
+}
+.n9{
+    font-family: cursive;
+    font-size: large;
+}
+.n1{
+    color: rgba(178, 5, 11, 0.879);
+   }
+.body{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    height: 500px;
+    width:50%;
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#i1{
+    color: rgb(167, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#i2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+#i3{
+    color: rgb(167, 151, 151);
+    font-family: sans-serif;
+    font-size: large;
+}
+#i4{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.text1{
+    height: 300px;
+    width: 50%;
+
+}
+.picture{
+    height: 500px;
+    width:50%;
+    background-image: url(https://images.unsplash.com/photo-1532170579297-281918c8ae72?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBvcnRyYWl0fGVufDB8fDB8fHww);background-repeat: no-repeat;background-size: 100% 500px;
+
+}
+#f1{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color:black;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.about{
+    height: 100px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+.a1{
+    text-align: center;
+    color: rgba(178, 5, 11, 0.879) ;
+    font-size: xx-large;
+    font-family: 'Berkshire Swash', cursive;
+}
+.a2{
+    text-align: center;
+    color: rgb(167, 151, 151);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a3{
+    text-align: center;
+    color: rgba(178, 5, 11, 0.879) ;
+    font-size:xx-large ;
+}
+.pict{
+    height: 600px;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#p1{
+    height: 500px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#p2{
+    height:auto;
+    width: 100%;  
+}
+.pict1{
+    height: auto;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2{
+    height: 550px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    color: rgb(167, 151, 151);
+}
+#p5{
+    height:  auto;
+    color: rgb(167, 151, 151);
+    font-size: xx-large;
+    font-family: cursive;
+    color: rgba(178, 5, 11, 0.879) ;;
+}
+#p3,#p4{
+    color: rgb(167, 151, 151);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#l1,#l2,#l3,#l4,#l5,#l6,#l7,#l8 {
+    font-family: sans-serif;
+    font-size: large;
+    text-align: left;
+}
+#l1::marker{
+    content: "🗓️";
+}
+#l2::marker{
+    content: "🪙";
+}
+#l3::marker{
+    content: "📌";
+}
+#l4::marker{
+    content: "🗣️";
+}
+#l5::marker{
+    content: "🏳️";
+}
+#l6::marker{
+    content: "📞";
+}
+#l7::marker{
+    content: "✉️";
+}
+#l8::marker{
+    content: "🖥️";
+}
+h1::selection{
+background-color: white;
+color: black;
+}

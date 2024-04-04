@@ -1,0 +1,26 @@
+.l1{
+    width: 100%;
+    height:100% ;
+}
+.l2{
+    width: 100%;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    background-color: black;
+}
+.l3{
+    width: 100%;
+    height:620px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: url(https://hips.hearstapps.com/clv.h-cdn.co/assets/16/49/3200x2133/gettyimages-182446605.jpg?resize=980:*);background-repeat: no repeat;background-size: 1800px 900px;
+}
+.l4{
+    width: 350px;
+    height: 230px;
+    background-color: white;
+}

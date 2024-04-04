@@ -1,0 +1,345 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    height: cover;
+    width: 100%;
+
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background:rgba(183,148,151,255);
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Ciutadella Rounded;
+    font-size: 12px;
+   
+}
+/* h3:hover{
+    /* content: "FREE DELIVERIES,FREE RETURNS";
+    background:rgb(144,116,84);
+    color: white;
+    font-family: Ciutadella Rounded;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s; 
+    background:white;
+    cursor: pointer;
+} */
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position:sticky;
+    top: 0px;
+}
+.nav1{
+    height: 80px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 200px;
+}
+.nav2{
+    height: 80px;
+    width: 40%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    padding-left: 150px;
+}
+#n1,#n2,#n3,#n4,#n5,#n6,#n7,#n8,#n9{
+    padding-right: 45px;
+}
+#n10,#n11,#n12,#n13{
+    padding-left: 10px;
+}
+#n10>button{
+    height: 40px;
+    width: 150px;
+    border: 1px solid rgb(181, 171, 171);
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.body1{
+    height: 70px;
+    width: 100%;
+    background:#7da2cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.b1{
+    height: 30px;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+.body2{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/035/572/728/non_2x/ai-generated-flying-trendy-sneakers-on-creative-colorful-background-stylish-fashionable-concept-ai-generated-free-photo.jpg);background-repeat: no-repeat;background-size: 100% 800px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.b2{
+    height: fit-content;
+    width: fit-content;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 36px;
+    font-family: cursive;
+    text-decoration-color: #7da2cc;
+    text-decoration-thickness: 2px; 
+    text-decoration-line: line-through;
+    color: white;
+}
+button{
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+.body3{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 5px;
+   
+    /* background-image: url(https://www.billboard.com/wp-content/uploads/2021/04/Selena-gomez-puma-Cali-Star-1548-1617731104.jpg);background-repeat: no-repeat;background-size: 100% 600px; */
+}
+.b31{
+    height: 500px;
+    width: 50%;
+    background: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F11%2Ffenty-puma-creeper-phatty-announcement-launch-release-info-images-rihanna-01.jpg?cbr=1&q=90);background-repeat: no-repeat;background-size: 100% 500px;
+}
+.b32{
+    height: 500px;
+    width: 50%;
+    background: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F11%2Ffenty-puma-creeper-phatty-announcement-launch-release-info-images-rihanna-10.jpg?cbr=1&q=90);background-repeat: no-repeat;background-size: 100% 500px;
+}
+.b33{
+    height: 200px;
+    width: 60%;
+    position: absolute;
+    top: 930px;
+    left: 310px;
+    text-align: center;
+    background: rgba(255,255,255,.10);
+}
+.b331{
+  font-size: 36px;
+  color: white;
+}
+.b332{
+  font-size: 24px;
+  color: white;
+}
+.body4{
+    height: 600px;
+    width: 100%;
+    margin: 5px;
+    background:black;
+    margin: 0;
+}
+.b4{
+    height: 600px;
+    width: 100%;
+   
+}
+.b44{
+    height: 200px;
+    width: 600px;
+    color: white;
+    position: absolute;
+    top: 1700px;
+    left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b41{
+    font-size: 24px;
+}
+.b42{
+    font-size: 20px;
+}
+.body5{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 5px;
+}
+.b5{
+    position: absolute;
+}
+.b555{
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    height: 180px + 1rem;
+    max-width: 1550px;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x-mandatory;
+    background-color: aliceblue;
+    
+    
+}
+.b555 > div{
+    scroll-snap-align: center;
+}
+.f1{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body6{
+    height: 550px;
+    width: 100%;
+    background-image: url(https://pbs.twimg.com/media/FPQ7xiYXsAkw5Ls?format=jpg&name=large);background-repeat: no-repeat;background-size: 100% 800px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0px;
+    padding-top: 230px;
+}
+.b6{
+    height: fit-content;
+    width: fit-content;
+    padding-left: 30px; 
+    text-align: left;
+    margin: 20px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.body7{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.b71{
+    height: 500px;
+    width: 30%;
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397166/01/sv01/fnd/IND/fmt/png/RBD-Game-x-HARRDY-SANDHU-Men-Sneakers); background-repeat: no-repeat; background-size: 100% 500px;
+}
+.b72{
+    height: 500px;
+    width: 30%;
+    background: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/397166/01/sv06/fnd/IND/fmt/png/RBD-Game-x-HARRDY-SANDHU-Men-Sneakers);background-repeat: no-repeat;background-size: 100% 500px;
+}
+.b73{
+    height: 500px;
+    width: 40%;
+    text-align: center;
+    background-color:#69406c;
+    color: white;
+}
+.b731{
+    font-size: 36px;
+}
+.b732{
+    font-size: 30px;
+}
+.b75{
+    height: 400px;
+    width: 100%;
+    display: inline;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+    top: 3130px;
+    right: 0px;
+}
+.body8{
+    height: 500px;
+    width: 100%;
+    background-color: #adbccc;
+}
+.b82{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b822{
+    height: 800px;
+    width: 600px;
+    position: relative;
+    bottom: 250px;
+}
+.b823{
+    height: 580px;
+    width: 800px;
+    position: relative;
+    bottom: 300px;
+}
+.b811{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b812{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b813 > button{
+    color: white;
+    background-color: black;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b81{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.body9{
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.b911{
+    color: #c3d156;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b912{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body10{
+    height: 600px;
+    width: 100%;
+}
+.body102{
+    height: 600px;
+    width: 50%;
+    background-image: url(https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000/m/6c71/6402/25f2/511c/12d9/1afd/0769/02d6/1e02/fad4/fad4.png);background-repeat: no-repeat;background-size: 100% 600px;
+}

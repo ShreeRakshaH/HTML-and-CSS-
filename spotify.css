@@ -1,0 +1,132 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+.container{
+    height: 690px;
+    width: 100%;
+    background-color:hsla(341, 100%, 4%, 1) ;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.body{
+    height: 670px ;
+    width: 40%;
+    background-color:hsla(0, 100%, 58%, 1);
+
+}
+.body2{
+    height: 670px ;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.textbox{
+    height: 450px ;
+    width: 90%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#b1{
+    height: 50px; 
+}
+#b2{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#b3{
+    height: 50px;
+    font-size: x-large;
+}
+.picture{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+#p1{
+    height: 250px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.p2{
+    height: 200px;
+    width: 50%;
+    color: rgb(219, 219, 92);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#p21{
+    font-size: xxx-large;
+
+}
+#p22,#p23,#p24,#p25,#p26{
+    font-size: x-large;
+}
+.text{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#t1{
+    height: 200px;
+    width: 50%;
+    text-align: center-left;
+    color: rgb(219, 219, 92);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.t2{
+    height: 200px;
+    width: 50%;
+    text-align: left;
+    color: rgb(219, 219, 92);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#t21{
+    font-size: 50px;
+}
+#t22,#t23,#t24,#t25,#t26{
+    font-size: x-large;
+}
+#t11{
+    font-size: 30px; 
+}
+#t12,#t14{
+    font-size: 70px;
+}
+#t13{
+    font-size: 30px;
+}
+#b21,#b22{
+    font-size: 120px; 
+    text-align: left;
+    color: hsla(0, 100%, 58%, 1);
+}
+#b23{
+    font-size: 38px; 
+    text-align: left;
+    color: hsla(0, 100%, 58%, 1);
+}
+button{
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    background-color: hsla(0, 100%, 58%, 1);
+    border: 0px solid hsla(0, 100%, 58%, 1) ;
+}
+#p1:hover{
+  transform: scale(1.1);
+}

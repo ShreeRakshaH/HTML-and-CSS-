@@ -1,0 +1,97 @@
+.container{
+  height: 680px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images8.alphacoders.com/132/1327993.png);background-repeat: no-repeat;background-size: 100% 680px;
+  transition: .8s;
+}
+.container:hover{
+  background-image: url(https://giffiles.alphacoders.com/220/220783.gif);background-repeat: no-repeat;background-size: 100% 680px;
+}
+.login{
+  height: 400px;
+  width: 350px;
+  background: rgba(255,255,255,.15);
+  box-shadow:0 8px 32px  rgba(255,255,255,.18);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(186, 7, 37) ;
+  transition: .5s;
+}
+.login:hover{
+  border: 5px solid pink;
+  box-shadow: 0 0 20px rgb(186, 7, 37),inset 0 0 20px rgb(103, 5, 21);
+}
+h2{
+  color: white;
+  transition: .5s;
+}
+.login:hover h2{
+   color: rgb(186, 7, 37) ;
+}
+.login label {
+  color: white; 
+  font-size: large;
+  transition: .5s;
+}
+.login:hover .l1 label{
+   color: rgb(186, 7, 37);
+}
+.login:hover .l2 label{
+  color: rgb(186, 7, 37);
+}
+.l1 input,.l2 input{
+  border-radius: 20px;
+  height: 30px;
+  width: 230px;
+  background: rgba(255,255,255,.18);
+  box-shadow:0px 8px 32px rgba(255,255,255,.15);
+  border-color:white;
+  transition: .5s;
+  border-color: white;
+}
+
+.login:hover .l1 input{
+  border: 2px solid pink;
+  box-shadow: 0 0 10px rgb(186, 7, 37),inset 0 0 10px rgb(103, 5, 21);
+}
+.login:hover .l2 input{
+  border: 2px solid pink;
+  box-shadow: 0 0 10px rgb(186, 7, 37),inset 0 0 10px rgb(103, 5, 21);
+}
+
+.l3{
+  font-size: medium;
+  color: white;
+  transition: .5s;
+}
+.l3:hover{
+  color: rgb(186, 7, 37);
+}
+.l5{
+  height: 40px ;
+  width: 100%;
+  border-radius: 40px;
+  border: none;
+  background: linear-gradient(to right,rgb(151, 12, 35) , #d13b68 );
+  color: white;
+  transition: .5s;
+}
+.l5:hover{
+  border: 2px solid pink;
+  box-shadow: 0 0 10px rgb(186, 7, 37),inset 0 0 10px rgb(103, 5, 21);
+}
+a{
+  height: 40px ;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: medium;
+}
+a:hover{
+  color: rgb(186, 7, 37);
+}
